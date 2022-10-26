@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+
+.mainContainer{
+    width: 100%;
+    height: 96vh;
+     background: rgba(0,0,0,0.5) url(imgVideo/img1.jpg);
+    }
+
+
+.navContainer{
+    /* border: 1px solid red; */
+    width: 99%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-head{
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 70%;
+    margin-top: 25px;
+}
+
+.nav-head button{
+    width: 85px;
+    padding:10px ;
+    font-size: 16px;
+    outline: none;
+    background-color: 
+    #e30813;
+    border: none;
+    color: white;
+}
+
+.navLang{
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    background: none;
+    border-color: white;
+    color: white;
+}
+.navLang option{
+  background-color: gray;
+}
+
+.logoImg img{
+    width: 15%;
+    margin-left: 40px;
+}
+
+.dataConatiner{
+    color: white;
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.infoDeatils h1{
+    font-size: 3.125rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.infoDeatils h2{
+    font-size: 1.625rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.infoDeatils h3{
+    font-size: 1.2rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.inputMail{
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inputMail input{
+    padding: 25px;
+    width: 60%;
+    margin-left: 35px;
+    border: none;
+    outline: none;
+}
+
+.inputMail button{
+    padding: 25px;
+    margin-left: -5px;
+    width: 30%;
+    border: none;
+    background-color: 
+    #e30813;
+    color: white;    
+}
+
+/* for border between box */
+.border{
+    /* border:2px solid gray; */
+    background: #1c1c1c;
+    padding: 4.5px;
+}
+
+/* Enjoy on ur tv block */
+.displayBlock1{
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 55%;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.infoDeatils1{
+    /* border: 1px solid blue; */
+    color: white;
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 150px; 
+    
+}
+
+.infoDeatils1 h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 0 0.4em;
+}
+
+.infoDeatils1 h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+
+
+.imgBox1{
+    /* border: 1px solid green; */
+    width: 35%;
+    height: 90%;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.img1{
+    width: 100%;
+    height: 105%;
+    z-index: 10000;
+}
+
+.imgBox1 video{
+    width: 72%;
+    margin-top: -309px;
+    margin-left: 70px;
+}
+
+/* for seocnd block */
+
+.displayBlock2{
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 55%;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.infoDeatils2{
+    /* border: 1px solid blue; */
+    color: white;
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-right: 150px; 
+    
+}
+
+.infoDeatils2 h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    margin: 0 0 0.4em;
+}
+
+.infoDeatils2 h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+
+
+.imgBox2{
+    /* border: 1px solid green; */
+    width: 35%;
+    height: 90%;
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+
+.img2{
+    width: 100%;
+    height: 105%;
+}
+
+.imgBox2 video{
+    width: 72%;
+    margin-top: -309px;
+    margin-left: 70px;
+}
+.strangerBox{
+    border: 3px solid #1c1c1c;
+    padding: 10px;
+    border-radius: 10px;
+    height: 20%;
+    width: 60%;
+    background-color: black;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    top:-130px;
+    left:82px;
+}
+
+.strangerBox img{
+    height: 100%;
+}
+
+.strangerText{
+    margin-top: -50px;
+    margin-left: 80px;
+    font-size: 1em;
+}
+.strangerDownload{
+    margin-left: 80px;
+    color: #0071eb;
+    font-size: .9em;
+}
+
+.downloadGif{
+    /* border:1px solid green; */
+    background: url(imgVideo/download-icon.gif) 50% no-repeat;
+    background-size: 80%;
+    height: 3.75em;
+    margin-left: 250px;
+    margin-top: -50px
+}
+
+
+
+
+
+
